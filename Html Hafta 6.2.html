@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+    for(i=0;i<10;i++){
+        if(i==5){
+            continue;
+        }
+        else if(i==8){
+            break;
+        }
+        document.write("<br>"+"i="+i);
+    }
+    var j=0;
+    while(j<10){
+        
+         document.write("<br>"+"j="+j);
+         j++;
+    }
+    k=0;
+    do {
+        document.write("<br>"+"k="+k);
+         k++;
+    } while (k<10);
+
+    var Arabalistem=["BMW","Mercedes","Volvo"];
+    var Arabalistem2=new Array()
+    Arabalistem2[0]="Toyota";
+    Arabalistem2[1]="Peugeot";
+    Arabalistem2[2]="Tofaş";
+    for(x=0;x<Arabalistem.length;x++){
+        document.write("<br>"+Arabalistem[x]);
+        
+    }
+    document.write("<br>"+"---------------------")
+    for(x in Arabalistem2){
+        document.write("<br>"+Arabalistem2[x]);
+    }
+
+    
+    
+</script>
+
+<body>
+    
+</body>
+</html>
